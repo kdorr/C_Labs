@@ -1,9 +1,8 @@
 /*
- * l4.c
- * Program to simulate Memory Game.
+ * lab4MemoryGame.c
+ * Program to simulate Memory card game.
  * Author: Kimberly Orr
  * Date: 4/12/18
- * Checked off: 4/19/18 
  */
 
 #include <stdio.h>
@@ -117,7 +116,7 @@ _Bool isMatch(int r1, int c1, int r2, int c2){ //define args
 }
 
 /*
- * Main
+ * main
  */
 int main(void){
     int playerTurn = 0; //p1 = 0, p2 = 1
@@ -132,6 +131,7 @@ int main(void){
     for(i=0; i<4; i++)
         for(j=0; j<5; j++)
             board[i][j] = 'x';
+		
     // Prepare cardVals (shuffled board)
     createBoard();
 
