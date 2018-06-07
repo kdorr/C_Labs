@@ -1,8 +1,8 @@
 /*
- * Lab 6: program to count the words.
- * Author: Kimberly Orr
+ * lab6LinkedListWordCount.c
+ * Program to count the words in Alice_Ch1.txt using linked lists.
+ * Kimberly Orr
  * Date: 4/26/18
- * Turned in: 5/3/18 
  */
 
 #include <stdio.h>
