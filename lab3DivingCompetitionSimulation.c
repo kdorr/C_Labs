@@ -1,7 +1,7 @@
 /*
- * l3.c
- * Diver competition lab
- * Checked off 4/10/18
+ * lab3DivingCompetitionSimulation.c
+ * Diver competition lab. Generate scores for a random number of divers for 
+ * 5 rounds and announce winners.
  */
 
 #include <stdio.h>
@@ -30,7 +30,9 @@ int main(void){
 
 
 
-
+    /*
+	 * Run competition
+	 */
     //loop for each round
     for(i=1; i<=5; i++){ //i is the round number [1,rounds]
         printf("Round %i:\n", i);
@@ -67,7 +69,7 @@ int main(void){
                 roundScore += judgeScores[k];
             }
 
-            //if diver's PB, add to best score
+            //if diver's personal best, add to best score
             if(roundScore > bestScores[j])
                 bestScores[j] = roundScore;
             
