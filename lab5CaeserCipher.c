@@ -1,8 +1,8 @@
 /*
- * Lab 5
+ * lab5CaeserCipher.c
+ * Encrypts or decrypts a string entered by the user using a Caeser cipher.
  * Kimberly Orr
  * Date: 4/19/18
- * Checked off: 4/26/18 
  */
 #include <stdio.h>
 #include <stdlib.h>
